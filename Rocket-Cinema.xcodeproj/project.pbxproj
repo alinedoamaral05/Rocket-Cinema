@@ -90,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				FAC86EAA291EB99E00D95922 /* HomeViewController.swift */,
+				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -121,7 +122,6 @@
 				EE3A9ACF291EBBC4005C711F /* Modal */,
 				FAC86EA6291EB99E00D95922 /* AppDelegate.swift */,
 				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
-				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
 				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
 				FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */,
 				FAC86EB4291EB99E00D95922 /* Info.plist */,
