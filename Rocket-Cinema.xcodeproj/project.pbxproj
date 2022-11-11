@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA6291EB99E00D95922 /* AppDelegate.swift */; };
+		FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */; };
+		FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EAA291EB99E00D95922 /* ViewController.swift */; };
+		FAC86EAE291EB99E00D95922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EAC291EB99E00D95922 /* Main.storyboard */; };
+		FAC86EB0291EB99E00D95922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EAF291EB99E00D95922 /* Assets.xcassets */; };
+		FAC86EB3291EB99E00D95922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */; };
+		FAC86EBE291EB99E00D95922 /* Rocket_CinemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EBD291EB99E00D95922 /* Rocket_CinemaTests.swift */; };
+		FAC86EC8291EB99E00D95922 /* Rocket_CinemaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EC7291EB99E00D95922 /* Rocket_CinemaUITests.swift */; };
+		FAC86ECA291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EC9291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC86EBA291EB99E00D95922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC86E9B291EB99E00D95922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC86EA2291EB99E00D95922;
+			remoteInfo = "Rocket-Cinema";
+		};
+		FAC86EC4291EB99E00D95922 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC86E9B291EB99E00D95922 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAC86EA2291EB99E00D95922;
+			remoteInfo = "Rocket-Cinema";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAC86EA3291EB99E00D95922 /* Rocket-Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket-Cinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC86EA6291EB99E00D95922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FAC86EAA291EB99E00D95922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAC86EAD291EB99E00D95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC86EAF291EB99E00D95922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAC86EB2291EB99E00D95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FAC86EB4291EB99E00D95922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAC86EB9291EB99E00D95922 /* Rocket-CinemaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket-CinemaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC86EBD291EB99E00D95922 /* Rocket_CinemaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_CinemaTests.swift; sourceTree = "<group>"; };
+		FAC86EC3291EB99E00D95922 /* Rocket-CinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket-CinemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAC86EC7291EB99E00D95922 /* Rocket_CinemaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_CinemaUITests.swift; sourceTree = "<group>"; };
+		FAC86EC9291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_CinemaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAC86EA0291EB99E00D95922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC86EB6291EB99E00D95922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC86EC0291EB99E00D95922 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAC86E9A291EB99E00D95922 = {
+			isa = PBXGroup;
+			children = (
+				FAC86EA5291EB99E00D95922 /* Rocket-Cinema */,
+				FAC86EBC291EB99E00D95922 /* Rocket-CinemaTests */,
+				FAC86EC6291EB99E00D95922 /* Rocket-CinemaUITests */,
+				FAC86EA4291EB99E00D95922 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAC86EA4291EB99E00D95922 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86EA3291EB99E00D95922 /* Rocket-Cinema.app */,
+				FAC86EB9291EB99E00D95922 /* Rocket-CinemaTests.xctest */,
+				FAC86EC3291EB99E00D95922 /* Rocket-CinemaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAC86EA5291EB99E00D95922 /* Rocket-Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86EA6291EB99E00D95922 /* AppDelegate.swift */,
+				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
+				FAC86EAA291EB99E00D95922 /* ViewController.swift */,
+				FAC86EAC291EB99E00D95922 /* Main.storyboard */,
+				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
+				FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */,
+				FAC86EB4291EB99E00D95922 /* Info.plist */,
+			);
+			path = "Rocket-Cinema";
+			sourceTree = "<group>";
+		};
+		FAC86EBC291EB99E00D95922 /* Rocket-CinemaTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86EBD291EB99E00D95922 /* Rocket_CinemaTests.swift */,
+			);
+			path = "Rocket-CinemaTests";
+			sourceTree = "<group>";
+		};
+		FAC86EC6291EB99E00D95922 /* Rocket-CinemaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86EC7291EB99E00D95922 /* Rocket_CinemaUITests.swift */,
+				FAC86EC9291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift */,
+			);
+			path = "Rocket-CinemaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAC86EA2291EB99E00D95922 /* Rocket-Cinema */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC86ECD291EB99E00D95922 /* Build configuration list for PBXNativeTarget "Rocket-Cinema" */;
+			buildPhases = (
+				FAC86E9F291EB99E00D95922 /* Sources */,
+				FAC86EA0291EB99E00D95922 /* Frameworks */,
+				FAC86EA1291EB99E00D95922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Rocket-Cinema";
+			productName = "Rocket-Cinema";
+			productReference = FAC86EA3291EB99E00D95922 /* Rocket-Cinema.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAC86EB8291EB99E00D95922 /* Rocket-CinemaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC86ED0291EB99E00D95922 /* Build configuration list for PBXNativeTarget "Rocket-CinemaTests" */;
+			buildPhases = (
+				FAC86EB5291EB99E00D95922 /* Sources */,
+				FAC86EB6291EB99E00D95922 /* Frameworks */,
+				FAC86EB7291EB99E00D95922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC86EBB291EB99E00D95922 /* PBXTargetDependency */,
+			);
+			name = "Rocket-CinemaTests";
+			productName = "Rocket-CinemaTests";
+			productReference = FAC86EB9291EB99E00D95922 /* Rocket-CinemaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FAC86EC2291EB99E00D95922 /* Rocket-CinemaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAC86ED3291EB99E00D95922 /* Build configuration list for PBXNativeTarget "Rocket-CinemaUITests" */;
+			buildPhases = (
+				FAC86EBF291EB99E00D95922 /* Sources */,
+				FAC86EC0291EB99E00D95922 /* Frameworks */,
+				FAC86EC1291EB99E00D95922 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAC86EC5291EB99E00D95922 /* PBXTargetDependency */,
+			);
+			name = "Rocket-CinemaUITests";
+			productName = "Rocket-CinemaUITests";
+			productReference = FAC86EC3291EB99E00D95922 /* Rocket-CinemaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAC86E9B291EB99E00D95922 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					FAC86EA2291EB99E00D95922 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					FAC86EB8291EB99E00D95922 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FAC86EA2291EB99E00D95922;
+					};
+					FAC86EC2291EB99E00D95922 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = FAC86EA2291EB99E00D95922;
+					};
+				};
+			};
+			buildConfigurationList = FAC86E9E291EB99E00D95922 /* Build configuration list for PBXProject "Rocket-Cinema" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAC86E9A291EB99E00D95922;
+			productRefGroup = FAC86EA4291EB99E00D95922 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAC86EA2291EB99E00D95922 /* Rocket-Cinema */,
+				FAC86EB8291EB99E00D95922 /* Rocket-CinemaTests */,
+				FAC86EC2291EB99E00D95922 /* Rocket-CinemaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAC86EA1291EB99E00D95922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC86EB3291EB99E00D95922 /* LaunchScreen.storyboard in Resources */,
+				FAC86EB0291EB99E00D95922 /* Assets.xcassets in Resources */,
+				FAC86EAE291EB99E00D95922 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC86EB7291EB99E00D95922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC86EC1291EB99E00D95922 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAC86E9F291EB99E00D95922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */,
+				FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */,
+				FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC86EB5291EB99E00D95922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC86EBE291EB99E00D95922 /* Rocket_CinemaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAC86EBF291EB99E00D95922 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAC86EC8291EB99E00D95922 /* Rocket_CinemaUITests.swift in Sources */,
+				FAC86ECA291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC86EBB291EB99E00D95922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC86EA2291EB99E00D95922 /* Rocket-Cinema */;
+			targetProxy = FAC86EBA291EB99E00D95922 /* PBXContainerItemProxy */;
+		};
+		FAC86EC5291EB99E00D95922 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAC86EA2291EB99E00D95922 /* Rocket-Cinema */;
+			targetProxy = FAC86EC4291EB99E00D95922 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAC86EAC291EB99E00D95922 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC86EAD291EB99E00D95922 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAC86EB2291EB99E00D95922 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAC86ECB291EB99E00D95922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAC86ECC291EB99E00D95922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAC86ECE291EB99E00D95922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rocket-Cinema/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocket.programa.Rocket-Cinema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAC86ECF291EB99E00D95922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Rocket-Cinema/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocket.programa.Rocket-Cinema";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FAC86ED1291EB99E00D95922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocket.programa.Rocket-CinemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket-Cinema.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rocket-Cinema";
+			};
+			name = Debug;
+		};
+		FAC86ED2291EB99E00D95922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocket.programa.Rocket-CinemaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rocket-Cinema.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rocket-Cinema";
+			};
+			name = Release;
+		};
+		FAC86ED4291EB99E00D95922 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocket.programa.Rocket-CinemaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rocket-Cinema";
+			};
+			name = Debug;
+		};
+		FAC86ED5291EB99E00D95922 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rocket.programa.Rocket-CinemaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Rocket-Cinema";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAC86E9E291EB99E00D95922 /* Build configuration list for PBXProject "Rocket-Cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC86ECB291EB99E00D95922 /* Debug */,
+				FAC86ECC291EB99E00D95922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC86ECD291EB99E00D95922 /* Build configuration list for PBXNativeTarget "Rocket-Cinema" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC86ECE291EB99E00D95922 /* Debug */,
+				FAC86ECF291EB99E00D95922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC86ED0291EB99E00D95922 /* Build configuration list for PBXNativeTarget "Rocket-CinemaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC86ED1291EB99E00D95922 /* Debug */,
+				FAC86ED2291EB99E00D95922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAC86ED3291EB99E00D95922 /* Build configuration list for PBXNativeTarget "Rocket-CinemaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAC86ED4291EB99E00D95922 /* Debug */,
+				FAC86ED5291EB99E00D95922 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAC86E9B291EB99E00D95922 /* Project object */;
+}
