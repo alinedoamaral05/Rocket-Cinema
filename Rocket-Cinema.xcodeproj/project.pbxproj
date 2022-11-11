@@ -16,6 +16,7 @@
 		FAC86EBE291EB99E00D95922 /* Rocket_CinemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EBD291EB99E00D95922 /* Rocket_CinemaTests.swift */; };
 		FAC86EC8291EB99E00D95922 /* Rocket_CinemaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EC7291EB99E00D95922 /* Rocket_CinemaUITests.swift */; };
 		FAC86ECA291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EC9291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift */; };
+		FAC86ED7291EB9FE00D95922 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FAC86EC3291EB99E00D95922 /* Rocket-CinemaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Rocket-CinemaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC86EC7291EB99E00D95922 /* Rocket_CinemaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_CinemaUITests.swift; sourceTree = "<group>"; };
 		FAC86EC9291EB99E00D95922 /* Rocket_CinemaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rocket_CinemaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				FAC86EA6291EB99E00D95922 /* AppDelegate.swift */,
 				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
 				FAC86EAA291EB99E00D95922 /* ViewController.swift */,
+				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
 				FAC86EAC291EB99E00D95922 /* Main.storyboard */,
 				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
 				FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */,
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC86ED7291EB9FE00D95922 /* ViewControllerExtension.swift in Sources */,
 				FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */,
 				FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */,
 				FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */,
