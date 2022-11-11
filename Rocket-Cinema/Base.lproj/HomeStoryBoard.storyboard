@@ -30,14 +30,16 @@
                                             <constraint firstAttribute="width" constant="75" id="GdE-xC-Qsz"/>
                                         </constraints>
                                         <state key="normal" title="Button"/>
-                                        <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="magnifyingglass" catalog="system">
+                                            <color key="baseForegroundColor" systemColor="systemPinkColor"/>
+                                        </buttonConfiguration>
                                     </button>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="cC5-lo-9lW" firstAttribute="top" secondItem="VKb-4H-EkC" secondAttribute="top" constant="64" id="6HJ-Te-2Qk"/>
                                     <constraint firstItem="xnO-ov-fnV" firstAttribute="top" secondItem="VKb-4H-EkC" secondAttribute="top" constant="66" id="8tn-7u-N5L"/>
                                     <constraint firstAttribute="height" constant="100" id="93M-j3-eQY"/>
-                                    <constraint firstItem="xnO-ov-fnV" firstAttribute="leading" secondItem="VKb-4H-EkC" secondAttribute="leadingMargin" id="AHI-0r-Mjt"/>
+                                    <constraint firstItem="xnO-ov-fnV" firstAttribute="leading" relation="lessThanOrEqual" secondItem="VKb-4H-EkC" secondAttribute="leadingMargin" id="AHI-0r-Mjt"/>
                                     <constraint firstItem="cC5-lo-9lW" firstAttribute="leading" secondItem="xnO-ov-fnV" secondAttribute="trailing" id="JIP-Ax-4sd"/>
                                     <constraint firstAttribute="bottom" secondItem="xnO-ov-fnV" secondAttribute="bottom" id="dbD-Gg-9Dm"/>
                                     <constraint firstAttribute="bottom" secondItem="cC5-lo-9lW" secondAttribute="bottom" id="tEu-mg-wpI"/>
@@ -102,6 +104,7 @@
                             <constraint firstItem="Rrp-d6-LvB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Ckm-oA-1sd"/>
                             <constraint firstItem="VKb-4H-EkC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="NWE-iC-sXP"/>
                             <constraint firstItem="Rrp-d6-LvB" firstAttribute="top" secondItem="VKb-4H-EkC" secondAttribute="bottom" id="Ttv-U5-Ze4"/>
+                            <constraint firstItem="Rrp-d6-LvB" firstAttribute="top" secondItem="VKb-4H-EkC" secondAttribute="bottom" id="Z0y-tM-P08"/>
                             <constraint firstItem="VKb-4H-EkC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="czK-dh-g54"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Rrp-d6-LvB" secondAttribute="trailing" id="esK-4K-kux"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Rrp-d6-LvB" secondAttribute="bottom" id="nDd-Eo-S1O"/>
@@ -119,8 +122,12 @@
         </scene>
     </scenes>
     <resources>
+        <image name="magnifyingglass" catalog="system" width="128" height="117"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
