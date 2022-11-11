@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA6291EB99E00D95922 /* AppDelegate.swift */; };
 		FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */; };
-		FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EAA291EB99E00D95922 /* ViewController.swift */; };
-		FAC86EAE291EB99E00D95922 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EAC291EB99E00D95922 /* Main.storyboard */; };
+		FAC86EAB291EB99E00D95922 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EAA291EB99E00D95922 /* HomeViewController.swift */; };
+		FAC86EAE291EB99E00D95922 /* HomeStoryBoard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EAC291EB99E00D95922 /* HomeStoryBoard.storyboard */; };
 		FAC86EB0291EB99E00D95922 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EAF291EB99E00D95922 /* Assets.xcassets */; };
 		FAC86EB3291EB99E00D95922 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */; };
 		FAC86EBE291EB99E00D95922 /* Rocket_CinemaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EBD291EB99E00D95922 /* Rocket_CinemaTests.swift */; };
@@ -40,8 +40,8 @@
 		FAC86EA3291EB99E00D95922 /* Rocket-Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket-Cinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC86EA6291EB99E00D95922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FAC86EAA291EB99E00D95922 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FAC86EAD291EB99E00D95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC86EAA291EB99E00D95922 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FAC86EAD291EB99E00D95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/HomeStoryBoard.storyboard; sourceTree = "<group>"; };
 		FAC86EAF291EB99E00D95922 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAC86EB2291EB99E00D95922 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAC86EB4291EB99E00D95922 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -78,6 +78,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EE3A9ACF291EBBC4005C711F /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86EAC291EB99E00D95922 /* HomeStoryBoard.storyboard */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		EE3A9AD0291EBBD6005C711F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAC86EAA291EB99E00D95922 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		FAC86E9A291EB99E00D95922 = {
 			isa = PBXGroup;
 			children = (
@@ -101,11 +117,11 @@
 		FAC86EA5291EB99E00D95922 /* Rocket-Cinema */ = {
 			isa = PBXGroup;
 			children = (
+				EE3A9AD0291EBBD6005C711F /* Controller */,
+				EE3A9ACF291EBBC4005C711F /* Modal */,
 				FAC86EA6291EB99E00D95922 /* AppDelegate.swift */,
 				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
-				FAC86EAA291EB99E00D95922 /* ViewController.swift */,
 				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
-				FAC86EAC291EB99E00D95922 /* Main.storyboard */,
 				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
 				FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */,
 				FAC86EB4291EB99E00D95922 /* Info.plist */,
@@ -236,7 +252,7 @@
 			files = (
 				FAC86EB3291EB99E00D95922 /* LaunchScreen.storyboard in Resources */,
 				FAC86EB0291EB99E00D95922 /* Assets.xcassets in Resources */,
-				FAC86EAE291EB99E00D95922 /* Main.storyboard in Resources */,
+				FAC86EAE291EB99E00D95922 /* HomeStoryBoard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FAC86ED7291EB9FE00D95922 /* ViewControllerExtension.swift in Sources */,
-				FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */,
+				FAC86EAB291EB99E00D95922 /* HomeViewController.swift in Sources */,
 				FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */,
 				FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */,
 			);
@@ -301,12 +317,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FAC86EAC291EB99E00D95922 /* Main.storyboard */ = {
+		FAC86EAC291EB99E00D95922 /* HomeStoryBoard.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				FAC86EAD291EB99E00D95922 /* Base */,
 			);
-			name = Main.storyboard;
+			name = HomeStoryBoard.storyboard;
 			sourceTree = "<group>";
 		};
 		FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */ = {
