@@ -9,6 +9,10 @@ import UIKit
 
 class SynopsisViewController: UIViewController {
      
+    @IBOutlet weak var summaryLabel: UILabel!
+    @IBOutlet weak var synopsiLabel: UILabel!
+    @IBOutlet weak var imageSeries: UIImageView!
+    @IBOutlet weak var analysisLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()

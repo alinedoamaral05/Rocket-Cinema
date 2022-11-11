@@ -151,6 +151,12 @@
                             <constraint firstItem="vDu-zF-Fre" firstAttribute="trailing" secondItem="2Nz-3u-vPI" secondAttribute="trailing" constant="264" id="xzq-QV-DbA"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="analysisLabel" destination="BYQ-7T-lb0" id="ODr-HQ-h5U"/>
+                        <outlet property="imageSeries" destination="x6E-wo-yn8" id="WBy-z2-wA4"/>
+                        <outlet property="summaryLabel" destination="I5n-Be-JJu" id="i7J-th-hU5"/>
+                        <outlet property="synopsiLabel" destination="tW6-5u-Brw" id="9ds-wS-hep"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

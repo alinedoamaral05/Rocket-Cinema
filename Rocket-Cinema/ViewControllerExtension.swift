@@ -93,8 +93,7 @@ extension ViewController {
     }
     
     func findAuthor(name: String) -> Author? {
-        let authors = createAuthors()
-        return authors.first { author in
+        author.first { author in
             author.name == name
         }
     }
