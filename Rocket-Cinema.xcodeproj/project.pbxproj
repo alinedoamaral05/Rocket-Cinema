@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA5D9562291EBE8900384933 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5D9561291EBE8900384933 /* ProfileViewController.swift */; };
+		FA5D9564291EBE9D00384933 /* ProfileScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA5D9563291EBE9D00384933 /* ProfileScreen.storyboard */; };
 		FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA6291EB99E00D95922 /* AppDelegate.swift */; };
 		FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */; };
 		FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EAA291EB99E00D95922 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA5D9561291EBE8900384933 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		FA5D9563291EBE9D00384933 /* ProfileScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ProfileScreen.storyboard; sourceTree = "<group>"; };
 		FAC86EA3291EB99E00D95922 /* Rocket-Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket-Cinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAC86EA6291EB99E00D95922 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,7 +109,9 @@
 				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
 				FAC86EAA291EB99E00D95922 /* ViewController.swift */,
 				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
+				FA5D9561291EBE8900384933 /* ProfileViewController.swift */,
 				FAC86EAC291EB99E00D95922 /* Main.storyboard */,
+				FA5D9563291EBE9D00384933 /* ProfileScreen.storyboard */,
 				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
 				FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */,
 				FAC86EB4291EB99E00D95922 /* Info.plist */,
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA5D9564291EBE9D00384933 /* ProfileScreen.storyboard in Resources */,
 				FAC86EB3291EB99E00D95922 /* LaunchScreen.storyboard in Resources */,
 				FAC86EB0291EB99E00D95922 /* Assets.xcassets in Resources */,
 				FAC86EAE291EB99E00D95922 /* Main.storyboard in Resources */,
@@ -263,6 +270,7 @@
 			files = (
 				FAC86ED7291EB9FE00D95922 /* ViewControllerExtension.swift in Sources */,
 				FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */,
+				FA5D9562291EBE8900384933 /* ProfileViewController.swift in Sources */,
 				FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */,
 				FAC86EA9291EB99E00D95922 /* SceneDelegate.swift in Sources */,
 			);
