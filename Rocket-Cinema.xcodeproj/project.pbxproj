@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F18BFCF291ECA29008BC49E /* StructMedia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18BFCE291ECA29008BC49E /* StructMedia.swift */; };
+		0F18BFD1291ECA96008BC49E /* StructAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F18BFD0291ECA96008BC49E /* StructAuthor.swift */; };
 		FAA7C912291EBC3B0041ED9B /* SynopsisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAA7C911291EBC3B0041ED9B /* SynopsisViewController.swift */; };
 		FAA7C914291EBC5A0041ED9B /* SynopsisScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA7C913291EBC5A0041ED9B /* SynopsisScreen.storyboard */; };
 		FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAC86EA6291EB99E00D95922 /* AppDelegate.swift */; };
@@ -39,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F18BFCE291ECA29008BC49E /* StructMedia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructMedia.swift; sourceTree = "<group>"; };
+		0F18BFD0291ECA96008BC49E /* StructAuthor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructAuthor.swift; sourceTree = "<group>"; };
 		FAA7C911291EBC3B0041ED9B /* SynopsisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SynopsisViewController.swift; sourceTree = "<group>"; };
 		FAA7C913291EBC5A0041ED9B /* SynopsisScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SynopsisScreen.storyboard; sourceTree = "<group>"; };
 		FAC86EA3291EB99E00D95922 /* Rocket-Cinema.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Rocket-Cinema.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,8 +112,10 @@
 				FAC86EA6291EB99E00D95922 /* AppDelegate.swift */,
 				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
 				FAC86EAA291EB99E00D95922 /* ViewController.swift */,
-				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
 				FAA7C911291EBC3B0041ED9B /* SynopsisViewController.swift */,
+				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
+				0F18BFCE291ECA29008BC49E /* StructMedia.swift */,
+				0F18BFD0291ECA96008BC49E /* StructAuthor.swift */,
 				FAC86EAC291EB99E00D95922 /* Main.storyboard */,
 				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
 				FAA7C913291EBC5A0041ED9B /* SynopsisScreen.storyboard */,
@@ -268,7 +274,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F18BFD1291ECA96008BC49E /* StructAuthor.swift in Sources */,
 				FAC86ED7291EB9FE00D95922 /* ViewControllerExtension.swift in Sources */,
+				0F18BFCF291ECA29008BC49E /* StructMedia.swift in Sources */,
 				FAA7C912291EBC3B0041ED9B /* SynopsisViewController.swift in Sources */,
 				FAC86EAB291EB99E00D95922 /* ViewController.swift in Sources */,
 				FAC86EA7291EB99E00D95922 /* AppDelegate.swift in Sources */,

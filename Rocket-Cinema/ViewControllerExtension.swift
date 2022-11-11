@@ -58,7 +58,8 @@ extension ViewController {
                 avatar: #imageLiteral(resourceName: "Livia"),
                 description: "E aí galeris, meu nome é Livia, tenho 20 anos. Nos momentos livres eu gosto de ler, assistir séries, escutar uma musiquinha e encontrar com meus amigos.",
                 github: "https://github.com/liviamachado01",
-                instagram: "https://www.instagram.com/livia_mach/"
+                instagram: "https://www.instagram.com/livia_mach/",
+                linkedin: ""
             ),
             Author(
                 name: "Raul",
@@ -86,12 +87,14 @@ extension ViewController {
                 name: "Bruna",
                 avatar: #imageLiteral(resourceName: "Bruna"),
                 description: ""
+                
             )
         ]
     }
     
     func findAuthor(name: String) -> Author? {
-        authors.first { author in
+        let authors = createAuthors()
+        return authors.first { author in
             author.name == name
         }
     }
