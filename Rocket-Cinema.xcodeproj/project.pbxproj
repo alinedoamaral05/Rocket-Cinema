@@ -78,23 +78,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EE3A9ACF291EBBC4005C711F /* Modal */ = {
-			isa = PBXGroup;
-			children = (
-				FAC86EAC291EB99E00D95922 /* HomeStoryBoard.storyboard */,
-			);
-			path = Modal;
-			sourceTree = "<group>";
-		};
-		EE3A9AD0291EBBD6005C711F /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				FAC86EAA291EB99E00D95922 /* HomeViewController.swift */,
-				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
-			);
-			path = Controller;
-			sourceTree = "<group>";
-		};
 		FAC86E9A291EB99E00D95922 = {
 			isa = PBXGroup;
 			children = (
@@ -118,9 +101,10 @@
 		FAC86EA5291EB99E00D95922 /* Rocket-Cinema */ = {
 			isa = PBXGroup;
 			children = (
-				EE3A9AD0291EBBD6005C711F /* Controller */,
-				EE3A9ACF291EBBC4005C711F /* Modal */,
 				FAC86EA6291EB99E00D95922 /* AppDelegate.swift */,
+				FAC86EAA291EB99E00D95922 /* HomeViewController.swift */,
+				FAC86EAC291EB99E00D95922 /* HomeStoryBoard.storyboard */,
+				FAC86ED6291EB9FE00D95922 /* ViewControllerExtension.swift */,
 				FAC86EA8291EB99E00D95922 /* SceneDelegate.swift */,
 				FAC86EAF291EB99E00D95922 /* Assets.xcassets */,
 				FAC86EB1291EB99E00D95922 /* LaunchScreen.storyboard */,
